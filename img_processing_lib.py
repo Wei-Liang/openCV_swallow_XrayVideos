@@ -104,7 +104,7 @@ def siftAndHomo(queryImg_name,img_name):
     MIN_MATCH_COUNT = 10
 
     # find the keypoints and descriptors with SIFT
-    kp1, des1 = sift.detectAndCompute(img1,None)
+    kp1, des1 = sift.detectAndCompute(img1,None)#see what are detected?
     kp2, des2 = sift.detectAndCompute(img2,None)
 
     FLANN_INDEX_KDTREE = 0
